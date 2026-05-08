@@ -1,21 +1,11 @@
 {
-    "name": "laminas/laminas-config",
-    "description": "provides a nested object property based user interface for accessing this configuration data within application code",
+    "name": "omeka/sanimal-config",
+    "description": "provides a nested object property based user interface for accessing this configuration data within application code (fork)",
     "license": "BSD-3-Clause",
     "keywords": [
         "laminas",
         "config"
     ],
-    "homepage": "https://laminas.dev",
-    "support": {
-        "docs": "https://docs.laminas.dev/laminas-config/",
-        "issues": "https://github.com/laminas/laminas-config/issues",
-        "source": "https://github.com/laminas/laminas-config",
-        "rss": "https://github.com/laminas/laminas-config/releases.atom",
-        "chat": "https://laminas.dev/chat",
-        "forum": "https://discourse.laminas.dev"
-    },
-    "abandoned": true,
     "config": {
         "sort-packages": true,
         "allow-plugins": {
@@ -24,6 +14,9 @@
         "platform": {
             "php": "8.1.99"
         }
+    },
+    "replace": {
+        "laminas/laminas-config": "3.11.0"
     },
     "require": {
         "php": "^8.1.0",
